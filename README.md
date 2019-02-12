@@ -1,8 +1,8 @@
 # pi-mqtt-sensor-bme680-container
-#Container that will read BME680 sensor data and output as MQTT on topic of choice. Created for Nutanix Xi-IoT but can be used with any MQTT Broker.
+Container that will read BME680 sensor data and output as MQTT on topic of choice. Created for Nutanix Xi-IoT but can be used with any MQTT Broker.
 
 
-#Requires Docker and Docker Compose to install... 
+# Requires Docker and Docker Compose to install... 
 
 sudo apt-get update
 curl -fsSL get.docker.com -o get-docker.sh && sh get-docker.sh
