@@ -11,9 +11,14 @@ pip install docker-compose
 
 # to add the current user to the docker group and remove the need for sudo docker user:-
 
-sudo groupadd docker # might already be present
+sudo groupadd docker
 sudo gpasswd -a $USER docker
 
 # test with:-
 
 docker run hello-world
+
+#Container start
+edit the app.py file adding you mqtt broker address and topic
+docker-compose build
+docker-compose up -d
